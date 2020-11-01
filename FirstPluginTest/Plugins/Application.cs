@@ -36,7 +36,10 @@ namespace FirstPluginTest.Plugins
                 // Obtain the target entity from the input parameters.  
                 Entity entity = (Entity)context.InputParameters["Target"];
 
-
+                /*
+                
+                We want to run this code when a new Contact Entity is created 
+                */
 
                 try
                 {
